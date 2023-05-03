@@ -24,7 +24,7 @@ en el index la etiqueda head no se cambio  mucho, lo que se hizo fue vincular co
 en el body se agruparon de forma tenemos un div para los vectores con, otro div para los textos y por ultimo otro div para los logos
 el footer no se cambio nada mas que el campo donde pedia que se ponga el nombre 
 
-en el archivo ccs se utilizo todos los valores que tenian  el figma con las indicaciones del css
+en el archivo ccs se utilizo todos los valores que tenian  el figma con las indicaciones del archivo style-guide.md
 
 #END
 [enlace figma](https://www.figma.com/file/d53SXW8nCCPlOLOGYBwf2L/FASEWEBDise%C3%B1os?node-id=0-1&t=DdJrc9WboTjPnnDR-0)
