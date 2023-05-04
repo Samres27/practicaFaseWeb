@@ -1,10 +1,20 @@
+html{
+    height: 100%;
+}
 body{
     background-color: hsl(257, 40%, 49%);
+    width: 100%;
+    height: 100%;
 
 }
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+#imagenesVectoriales{
+    height: 60%;
+}
 #fondoSVG{
+    background-image: url(images/bg-desktop.svg);
     position: absolute;
     height:800px ;
     width:1318px;
@@ -27,7 +37,7 @@ body{
     left: 96px;
 }
 #textos{
-    position: relative;
+    position: absolute;
     height:196px;
     width: 469px; 
     top:238px;
@@ -63,9 +73,9 @@ body{
     
 }
 footer{
-    position:absolute;
-    top : 130%;
-    left: 50%;
+    position: absolute;
+    top: 150%;
+    left: 25%;
 }
 #logos{
     position:absolute;
@@ -76,7 +86,7 @@ footer{
     top:750px;
     left: 1118px;
 }
-.hydrated{
+.iconos{
     width: 35px;
     height: 35px;
     margin-right: 14px;
@@ -87,14 +97,84 @@ footer{
     color:#FFFFFF;
     outline:0;
     background-color: hsl(300, 69%, 71%);
+    transition: 0.4s;
 
 }
 #facebook:hover, #ifacebook:focus{
     color:hsl(300, 69%, 71%);
+    transition: 0.4s;
 }
 #twitter:hover, #ifacebook:focus{
     color:hsl(300, 69%, 71%);
+    transition: 0.4s;
 }
 #instagram:hover, #ifacebook:focus{
     color:hsl(300, 69%, 71%);
+    transition: 0.4s;
+}
+/* parte responsive*/
+
+@media (max-width: 400px) {
+    #fondoSVG{
+        background-image: url(images/bg-mobile.svg);
+        position: absolute;
+        height:373px ;
+        width:375px ;
+    }
+    #imagenSVG  {
+        
+        width: 300px;
+        height: 201px;
+        left: 13%;
+        top: 15%;
+
+    }
+    #logoHuddle{
+        width: 120px;
+        height: 30px;
+        top: 5%;
+        left: 10%;
+    }
+    #textos{
+        width: 305px;
+        height: 206px;
+        top: 388px;
+        left: 41px;
+        
+    }
+    #textoTitulo{
+        width: 100%;
+        font-size: 150%;
+        font-weight: bold;
+        text-align: center;
+    }
+    #textoInvitacion{
+        margin-left: 5%;
+        width: 85%;
+        font-size: 16px;
+        font-weight: normal;
+        text-align: center;
+    }
+    #registrate{
+        width: 200px;
+        height: 50px;
+        margin-left: 15%;
+    }
+    #logos{
+        width: 100px;
+        height: 25px;
+        top:736px;
+        left:143px;
+    }
+    .iconos{
+        width: 25px;
+        height: 25px;
+        margin-right: 4px;
+    }
+    footer{
+        position: absolute;
+        top: 100%;
+        left: 25%;
+    }
+
 }
