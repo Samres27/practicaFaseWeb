@@ -27,4 +27,4 @@ el footer no se cambio nada mas que el campo donde pedia que se ponga el nombre
 en el archivo ccs se utilizo todos los valores que tenian  el figma con las indicaciones del archivo style-guide.md
 
 #END
-[enlace figma](https://www.figma.com/file/d53SXW8nCCPlOLOGYBwf2L/FASEWEBDise%C3%B1os?node-id=0-1&t=DdJrc9WboTjPnnDR-0)
+[enlace figma](https://www.figma.com/file/d53SXW8nCCPlOLOGYBwf2L/FASEWEBDise%C3%B1os?type=design&node-id=2%3A37&t=frIH3Z2ielXxPGKu-1)
