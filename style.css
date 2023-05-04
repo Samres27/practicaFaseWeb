@@ -16,24 +16,24 @@ body{
 #fondoSVG{
     background-image: url(images/bg-desktop.svg);
     position: absolute;
-    height:800px ;
-    width:1318px;
+    height:100% ;
+    width:100%;
 }  
  
 #logoHuddle{
     position: absolute;
     width: 264px;
     height: 65.33px;
-    top: 64px;
-    left: 96px;
+    top: 10%;
+    left: 10%;
 
     
 }
 #imagenSVG{
     position: absolute;
-    height: 506px;
-    width: 709px;
-    top: 205px;
+    height: 400px;
+    width: 600px;
+    top: 20%;
     left: 96px;
 }
 #textos{
