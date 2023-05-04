@@ -13,36 +13,41 @@ body{
 #imagenesVectoriales{
     height: 60%;
 }
+#imagenesVectoriales{
+    width: 100%;
+    height: 100%;
+}
 #fondoSVG{
     background-image: url(images/bg-desktop.svg);
     position: absolute;
+    background-size: cover;
     height:100% ;
     width:100%;
 }  
  
 #logoHuddle{
     position: absolute;
-    width: 264px;
-    height: 65.33px;
-    top: 10%;
-    left: 10%;
+    width: 18.66%;
+    height: 8.1%;
+    top: 4.85%;
+    left: 10.5%;
 
     
 }
 #imagenSVG{
     position: absolute;
-    height: 400px;
-    width: 600px;
-    top: 20%;
-    left: 10%;
+    height: 61.63%;
+    width: auto;
+    top: 15.4%;
+    left: 10.75%;
 }
 #textos{
     position: absolute;
-    height:196px;
-    width: 469px; 
-    top:25%;
-    left:60%;
-    color:#FFFFFF
+    height: 24.5%;
+    width: 35.58%;
+    top: 29.75%;
+    left: 65.17%;
+    color: #FFFFFF;
 
 }
 #textoTitulo{
@@ -114,32 +119,32 @@ footer{
 }
 /* parte responsive*/
 
-@media (max-width: 400px) {
+@media (max-width: 768px) {
     #fondoSVG{
         background-image: url(images/bg-mobile.svg);
         position: absolute;
-        height:373px ;
-        width:375px ;
+        height: 46.5%;
+        width: 100%;
     }
     #imagenSVG  {
         
-        width: 300px;
-        height: 201px;
-        left: 13%;
-        top: 15%;
+        width: auto;
+        height: 24.76%;
+        left: 16.2%;
+        top: 11.3%;
 
     }
     #logoHuddle{
-        width: 120px;
-        height: 30px;
-        top: 5%;
-        left: 10%;
+        width: 32%;
+        height: 3.69%;
+        top: 4.06%;
+        left: 9.06%;
     }
     #textos{
-        width: 305px;
-        height: 206px;
-        top: 388px;
-        left: 41px;
+        width: 80%;
+        height: 24.76%;
+        top: 47.78%;
+        left: 10.9%;
         
     }
     #textoTitulo{
@@ -175,6 +180,12 @@ footer{
         position: absolute;
         top: 95%;
         left: 20%;
+    }
+
+}
+@media (max-width: 1253px) {
+    #imagenSVG{
+        width: 48%;
     }
 
 }
