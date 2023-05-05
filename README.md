@@ -1,4 +1,7 @@
-# introducion
+# Frontend Mentor - Huddle landing page with single introductory section
+
+![Design preview for the Huddle landing page with single introductory section](./design/desktop-preview.jpg)
+## introducion
 este repositorio remoto es para subir el codigo de la pagina web. 
 el proyecto que se decidio tomar fue el del grupo 1 (conocimientos nulos)
 por lo cual se siguieron los siguientes pasos:
@@ -9,7 +12,7 @@ por lo cual se siguieron los siguientes pasos:
 5. desarrollar el Figma
 6. comenzar a hacer el codigo
 
-# procesos de trabajo
+## procesos de trabajo
 Siguiendo con los pasos anteriores se pensaron en los diseños en figma por lo que se utilizaron los siguientes recursoso para entender figma:
 1. [recurso1](https://youtu.be/GoNzQHc7-qo) donde se aprendio sobre el manejo de figma, destacar de este recurso que  se aprendio atajos, creacion de botones, y como poder hacer animaciones,
 2. [recurso2](https://youtu.be/Jh95K6ZaE70) donde se pudo observar como poder extraer css del diseño de figma no fue tan util, pero ayudo en como hacer extraer el sombreado del boton, ya que no sabia como poner la luminosidad
@@ -18,7 +21,7 @@ tenido nuestro modelos de figma se continuo con la codificacion, destacar que ha
 1. [recurso1](https://fourth-army-204.notion.site/Temario-HTML-21348d5528ab450ab6f8a1d02669bbf0) el notion del curso donde se invertigo que hace que cada etiqueta y asi poder usar "img" para poner los vectores
 2. recurso2 el internet en general donde se preguntaron dudas a partir del index.html como ser que es html?, que es css?, como usar css en html como cambiar el color del fondo?, como mover los elementos?, como agrupar elementos?, etc
 
-# como esta formado la pagina 
+## como esta formado la pagina 
 
 en el index la etiqueda head no se cambio  mucho, lo que se hizo fue vincular con el archivo css, y los estilos 
 en el body se agruparon de forma tenemos un div para los vectores con, otro div para los textos y por ultimo otro div para los logos
